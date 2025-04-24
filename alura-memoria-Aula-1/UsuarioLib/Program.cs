@@ -1,23 +1,17 @@
 ﻿using UsuarioLib;
 
-Usuario usuario = 
+Usuario usuarioNew =
     new Usuario(
-        "Daniel", 
-        "daniel@email.com",
-        new List<string>() {"12345678"});
-
-Usuario usuario2 =
-    new Usuario(
-        "Luis",
-        "luis@email.com",
-        new List<string>() { "87654321" });
+        "Gustavo",
+        "gustavo@gmail.com",
+        new List<string>() { "12345678" });
 
 
 //12345678
-usuario.ExibeTelefones();
+usuarioNew.ExibeTelefones();
 
-//efetuar a padronização
-usuario.PadronizaTelefones();
+//efetuar a padronizacao = 912345678
+usuarioNew.PadronizaTelefones();
 
 //912345678
-usuario.ExibeTelefones();
+usuarioNew.ExibeTelefones();
