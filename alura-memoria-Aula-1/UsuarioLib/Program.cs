@@ -8,22 +8,24 @@
     
  */
 
-
 using UsuarioLib;
 
-Usuario usuarioNew =
-    new Usuario(
-        "Gustavo",
-        "gustavo@gmail.com",
-        new List<string>() { "12345678" });
+//Usuario usuarioNew =
+//    new Usuario(
+//        "Gustavo",
+//        "gustavo@gmail.com",
+//        new List<string>() { "12345678" });
 
 
 
-//12345678
-usuarioNew.ExibeTelefones();
+////12345678
+//usuarioNew.ExibeTelefones();
 
-//efetuar a padronizacao = 912345678
-usuarioNew.PadronizaTelefones();
+////efetuar a padronizacao = 912345678
+//usuarioNew.PadronizaTelefones();
 
-//912345678
-usuarioNew.ExibeTelefones();
+////912345678
+//usuarioNew.ExibeTelefones();
+
+Coordenada coordenada = new Coordenada(153.293, -129.298);
+Console.WriteLine(coordenada.GetType().BaseType);

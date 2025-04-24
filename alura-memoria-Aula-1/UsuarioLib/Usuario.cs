@@ -31,8 +31,7 @@ public class Usuario
         }
         stopwatchLinkedList.Stop();
         Console.WriteLine($"Tempo total LinkedList em ms: {stopwatchLinkedList.Elapsed.TotalMilliseconds}");
-        foreach (Guid i in ChavesDeAcessoLinkedList)
-        {
+        foreach (Guid i in ChavesDeAcessoLinkedList) {
             Console.WriteLine(i);
         }
     }
