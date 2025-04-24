@@ -29,16 +29,3 @@ using UsuarioLib;
 /*Coordenada coordenada = new Coordenada(153.293, -129.298);
 Console.WriteLine(coordenada.GetType().BaseType);*/
 
-FormularioDto dto = new FormularioDto();
-dto.Nome = "Gustavo";
-dto.Idade = 23;
-dto.Cargo = "Programador";
-dto.Cpf = "11199988827";
-
-FormularioDto dto2 = new FormularioDto();
-dto2.Nome = "Gustavo";
-dto2.Idade = 23;
-dto2.Cargo = "Programador";
-dto2.Cpf = "11199988827";
-
-Console.WriteLine(dto == dto2);
